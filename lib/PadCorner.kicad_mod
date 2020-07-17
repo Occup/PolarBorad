@@ -1,0 +1,9 @@
+(module PadCorner (layer F.Cu) (tedit 5ECA8B5F)
+  (fp_text reference REF** (at 0 4.2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PadCorner (at 0 -3.8) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad ~ thru_hole circle (at 0 0) (size 5.6 5.6) (drill 3.2) (layers *.Cu *.Mask))
+)
